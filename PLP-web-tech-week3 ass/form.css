@@ -1,0 +1,82 @@
+*{      
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+    html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: rgb(172, 235, 232);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 4rem;
+    font-weight: 1000;
+    cursor: default;
+    letter-spacing: 0.5rem;
+    color: rgb(11, 5, 103);
+}
+.form{
+    padding: 30px 0px 30px 50px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-top: 130px;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-image:url(Form\ image.avif) ;
+    border: 3px solid rgb(56, 111, 193);
+}
+
+label{
+    font-size: 3rem;
+    padding-right: 10px;
+    margin-bottom: 15px;
+    
+}
+input{
+    font-size: 2.8rem;
+    padding-left: 6px;
+    border: 2px solid black;
+    margin-bottom: 15px;
+    border-radius: 7px;
+}
+button{
+    font-size: 2.5rem;
+    margin-top: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+}
+#cancel{
+    margin-left: 30%;
+    color: rgb(233, 113, 113);      
+}
+#reg{
+    color: rgb(97, 219, 97);
+    
+}
+#reg:hover{
+    color: white;
+    background-color: green;
+    cursor: pointer;
+}
+#cancel:hover{
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}
